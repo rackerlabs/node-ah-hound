@@ -1,10 +1,10 @@
 {
   "name": "ah-hound",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "A distributed AtomHopper consumer.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -15,8 +15,12 @@
     "distributed"
   ],
   "author": "Justin Gallardo <justin.gallardo@rackspace.com>",
-  "license": "Apacheh v2.0",
+  "license": "Apache v2.0",
   "bugs": {
     "url": "https://github.com/rackerlabs/node-ah-hound/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.16.2",
+    "should": "~2.1.1"
   }
 }
