@@ -1,4 +1,4 @@
 node-ah-hound
 =============
 
-Distributed Node.js AtomHopper Consumer
+Distributed Node.js [AtomHopper](http://atomhopper.org/) Consumer
